@@ -21,6 +21,26 @@ With git:
 computer λ user . HH:mm:ss /full/current/path → λ git branch →
 ```
 
+### How to install
+
+- Clone this repo:
+
+```
+$ git clone https://github.com/flavertonrr/mathfy.git ~/.mathfy
+```
+
+- Create a link to file using
+
+```
+$ ln -s ~/.mathfy/mathfy.zsh-theme ~/.oh-my-zsh/themes/mathfy.zsh-theme
+```
+
+- Go to `~/.zshrc` and change variable `ZSH_THEME` to:
+
+```
+ZSH_THEME="mathfy"
+```
+
 ### License
 
 Available in [license file](LICENSE.md)
